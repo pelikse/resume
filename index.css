@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px;
+    font-family: 'Poppins',sans-serif;
+}
+
+body
+{   
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;}
+
+.container .left-side
+{
+    position: relative;
+    background: #003147;
+    padding: 30px;
+}
+
+.profile
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;    
+}
+
+.profile .image
+{
+    position: relative;
+    padding-bottom: 0px;
+}
+.profile h2
+{
+    color: wheat;
+    margin-top: 5px;
+    margin-bottom: px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5em ;
+    font-weight: 600;
+}
+
+.profile span
+{
+    color: wheat;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.contactInfo
+{
+    padding-top: 35px;
+}
+
+.title
+{
+    color: wheat;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contactInfo ul
+{
+    position: relative;
+}
+
+.contactInfo ul li
+{
+    list-style: none;
+    position: relative;
+}
+
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: wheat;
+}
+
+.contactInfo ul li span
+{
+    color: wheat;
+    font-weight: 300;
+}
+
+.contactInfo.Education li
+{
+    margin-bottom: 20px;
+}
+
+.contactInfo.Education h5
+{
+    color: wheat;
+    font-weight: 500;
+}
+
+.contactInfo.Education h4
+{
+    color: wheat;
+    font-weight: 300;
+}
+
+.language .percent
+{
+    position: relative;
+    width: 100% ;
+    height: 6px;
+    background: white;
+    display: block;
+    margin-top: 5px;
+}
+
+.container .right-side
+{
+    position: relative;
+    background: wheat;
+    padding: 40px;
+}
+
+.about
+{
+    margin-bottom: 30px;
+}
+
+.about a{
+    color: black;
+    font-weight: ;
+}
+
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year
+{
+    min-width: 150px;
+}
+
+.about .boxs
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px 0;
+}
+
+.about
+{
+    margin-bottom: 30px;
+}
+
+.back
+{
+    color: #222327;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    transition: all .50s ease;
+}
+
+.about .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background : black;
+    display: block;
+    margin-top: 5px;
+}
+
+.about .percent div
+{
+    position: absolute;
+    top : 0;
+    left: 0;
+    height: 100%;
+    background:#03a9f4 ;
+}
+
+.about .boxs .kind
+{
+    min-width: 150px;
+}
+
+.interest
+{
+    margin-top: 20px;
+}
+.interest ul
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.interest ul li
+{
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.interest ul li .fa
+{
+    margin-right: 10px;
+}
